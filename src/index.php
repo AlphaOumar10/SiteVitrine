@@ -95,53 +95,30 @@ $statement->execute(); ?>
       </div>
     </section>
 
-    <section class="probootstrap-section probootstrap-bg-white ">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 section-heading text-center probootstrap-animate">
-            <h2>Photos</h2>
-          </div>
-        </div>
-      </div>
-      <div class="owl-carousel owl-work probootstrap-animate">
-        <div class="item">
-          <a href="portfolio-single.html">
-            <img src="../assets/fronts/img/work_1.jpg" alt="Free Bootstrap Template by uicookies.com">
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-single.html">
-            <img src="../assets/fronts/img/work_2.jpg" alt="Free Bootstrap Template by uicookies.com">
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-single.html">
-            <img src="../assets/fronts/img/work_3.jpg" alt="Free Bootstrap Template by uicookies.com">
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-single.html">
-            <img src="../assets/fronts/img/work_4.jpg" alt="Free Bootstrap Template by uicookies.com">
-          </a>
-        </div>  
-        <div class="item">
-          <a href="portfolio-single.html">
-            <img src="../assets/fronts/img/work_5.jpg" alt="Free Bootstrap Template by uicookies.com">
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-single.html">
-            <img src="../assets/fronts/img/work_6.jpg" alt="Free Bootstrap Template by uicookies.com">
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-single.html">
-            <img src="../assets/fronts/img/work_7.jpg" alt="Free Bootstrap Template by uicookies.com">
-          </a>
-        </div>
-      </div>
-    </section>      
-    
+    <section class="flexslider">
+            <h2 style="text-align:center;">Nos realisations</h2>
+      <ul class="slides">
+        <li style="background-image: url(../assets/fronts/img/appart3.jpg)" class="overlay">
+        </li>
+      </ul>
+      <ul class="slides">
+        <li style="background-image: url(../assets/fronts/img/realisation.jpg)" class="overlay">
+        </li>
+      </ul>
+      <ul class="slides">
+        <li style="background-image: url(../assets/fronts/img/realisation1.jpg)" class="overlay">
+        </li>
+      </ul>
+      <ul class="slides">
+        <li style="background-image: url(../assets/fronts/img/route3.jpg)" class="overlay">
+        </li>
+      </ul>
+      <ul class="slides">
+        <li style="background-image: url(../assets/fronts/img/route7.jpg)" class="overlay">
+        </li>
+      </ul>
+    </section>
+   
     <section class="probootstrap-section proboostrap-clients probootstrap-bg-white probootstrap-zindex-above-showcase">
       <div class="container">
 
